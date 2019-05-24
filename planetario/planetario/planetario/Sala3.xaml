@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+                     android:TabbedPage.ToolbarPlacement="Bottom"
+                x:Class="planetario.Sala3">
+    <TabbedPage.Children>
+    <ContentPage Title="Home"
+                     Icon="casa.png">
+        <Grid>
+            <Label 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Text="Home"/>
+        </Grid>
+    </ContentPage>
+    <ContentPage Title="Favorites"
+                     Icon="informacion.png">
+        <Grid>
+            <Label HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Text="Favorites" />
+        </Grid>
+    </ContentPage>
+    <ContentPage Title="Settings"
+                     Icon="instagram.png">
+        <Grid>
+            <Label HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Text="Settings" />
+        </Grid>
+    </ContentPage>
+    </TabbedPage.Children>
+</TabbedPage>
